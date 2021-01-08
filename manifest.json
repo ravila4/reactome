@@ -2,7 +2,7 @@
     "version": "0.1",
     "requires" : ["biothings", "mygene", "requests"],
     "__metadata__": {
-        "license_url": "",
+        "license_url": "https://reactome.org/license",
         "url": "http://reactome.org"},
     "dumper": {
         "data_url": ["https://reactome.org/download/current/ReactomePathways.gmt.zip"],
