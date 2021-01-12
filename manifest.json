@@ -8,8 +8,8 @@
     "dumper": {
         "data_url": ["https://reactome.org/download/current/ReactomePathways.gmt.zip"],
         "uncompress": true,
-        "release": "",
-        "schedule": "0 2 30,14 * *"
+        "release": "version:get_release",
+        "schedule": "0 3 4,17 * *"
     },
     "uploader" : {
         "parser": "parser:load_data",
