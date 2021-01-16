@@ -3,4 +3,4 @@ def get_release(self):
 
     resp = requests.get("https://reactome.org/ContentService/data/database/version")
     if resp.status_code == 200:
-        return int(resp.json())
+        return str(resp.json())
